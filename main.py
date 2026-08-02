@@ -5,7 +5,7 @@ def obter_noticias_com_openrouter():
     OPENROUTER_KEY = os.environ["OPENROUTER_KEY"]
 
     prompt = (
-        "Traga um resumo das 3 principais notícias do futebol mundial desta última semana. "
+        "Traga um resumo das 3 principais notícias do futebol brasileiro desta última semana a respeito da copa do brasil. "
         "Formate o texto de maneira limpa para o WhatsApp: use marcadores, negritos (*exemplo*) "
         "e inclua o título e uma breve explicação de 2 linhas para cada notícia."
         "Apenas forneça o resumo formatado. Não inclua números de citação entre colchetes, notas de rodapé nem mensagens no final oferecendo ajuda."
