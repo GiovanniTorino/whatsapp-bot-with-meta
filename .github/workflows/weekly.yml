@@ -4,7 +4,7 @@ name: Bot de Notícias Semanal
 on:
   schedule:
     # Toda quinta-feira às 03:54 UTC (ajuste conforme necessário)
-    - cron: '17 3 * * 6'
+    - cron: '20 23 * * *'
   workflow_dispatch: {}
 
 jobs:
